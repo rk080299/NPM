@@ -1,0 +1,14 @@
+npm init --yes                      //for initialising jason package
+  
+npm config set init-author-name "RENISH"  //for changing author
+
+npm config set init-license "MIT"         //for changing license
+
+npm install loadash --save                //dependencies
+
+npm install --save-dev gulp gulp-sass	  //dev dependencies
+
+npm install	            //for required dependencies must be run when error of dependencies before execution of file
+
+npm install --production   // only regular dependencies
+	
