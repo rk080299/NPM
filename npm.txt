@@ -12,3 +12,26 @@ npm install	            //for required dependencies must be run when error of de
 
 npm install --production   // only regular dependencies
 	
+
+npm install -g nodemon
+
+npm root -g
+
+nodemon
+
+npm install live-server -g
+
+
+live-server
+
+example for live server create a html file in saame folder and refresh the web page
+
+npm list
+
+npm install gulp --save
+
+npm list --depth 0  or 1 or 2 and so on
+
+
+npm install --save-dev live-server 
+ 
