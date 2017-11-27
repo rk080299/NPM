@@ -4,7 +4,6 @@ const path=require('path');
 
 
 const {app,BrowserWindow,Menu,ipcMain}=electron;
-
 //set env
 
 process.env.NODE_ENV ='production';
@@ -24,6 +23,8 @@ mainWindow.loadURL(url.format({
 pathname:path.join(__dirname ,'mainWindow.html'),
 
 protocol:'file:',
+
+
 
 slashes:true
 
@@ -53,6 +54,7 @@ addWindow=new BrowserWindow({
 
 width:500,
 height:200,
+
 
 title:'Add Shopping List Item'
 
@@ -88,7 +90,7 @@ ipcMain.on('item:add',function(e,item){
 
 
 mainWindow.webContents.send('item:add',item);
-addWindow.close(); 
+//addWindow.close(); 
 
 
 

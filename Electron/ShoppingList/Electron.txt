@@ -1,0 +1,24 @@
+Before Running the webapp use these commands in terminal where your files are saved without text file :-
+
+1. npm install --save electron
+
+2. 
+  if on mac
+   npm run package-mac
+  
+  if on windows
+	
+  npm run package-win
+
+
+  if on linux
+  
+  npm run package-linux
+
+
+ After this a folder is created named "released-builds"
+
+ Go to this and look for the ex file of the webapp
+
+
+
